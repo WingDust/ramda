@@ -1,3 +1,6 @@
+/**
+ * 根据函数参数个数判断
+ */
 export default function _arity(n, fn) {
   /* eslint-disable no-unused-vars */
   switch (n) {

@@ -4,6 +4,8 @@ var fc = require('fast-check');
 
 describe('curry', function() {
   it('curries a single value', function() {
+    // eslint-disable-next-line no-debugger
+    debugger;
     var f = R.curry(function(a, b, c, d) {return (a + b * c) / d;}); // f(12, 3, 6, 2) == 15
     var g = f(12);
     eq(g(3, 6, 2), 15);
